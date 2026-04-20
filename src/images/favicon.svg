@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <bx:export>
+      <bx:file format="png" path="apple-touch-icon.png" width="180" height="180" background="#222"/>
+    </bx:export>
+  </defs>
   <path fill="none" stroke="#d4ae8e" stroke-width="2" vector-effect="non-scaling-stroke" d="M 25 0 L 34.09 9.09 L 40.91 9.09 L 40.91 15.91 L 50 25 L 40.91 34.09 L 40.91 40.91 L 34.09 40.91 L 25 50 L 15.91 40.91 L 9.09 40.91 L 9.09 34.09 L 0 25 L 9.09 15.91 L 9.09 9.09 L 15.91 9.09 L 25 0 Z"/>
   <path fill="#000" d="M 25 5 L 45 25 L 25 45 L 5 25 L 25 5 Z"/>
 </svg>
