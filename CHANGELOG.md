@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/magefayre/magefayre.com/compare/v1.0.0...v1.0.1) (2026-05-22)
+
+
+### Bug Fixes
+
+* social links ([1dac15c](https://github.com/magefayre/magefayre.com/commit/1dac15cb5a281258fba72144c81eaeeb6eb8dcd9))
+
 # 1.0.0 (2026-05-22)
 
 
