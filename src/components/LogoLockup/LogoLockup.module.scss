@@ -1,0 +1,7 @@
+@use '~styles/functions';
+
+.icon {
+  max-width: 100%;
+  min-height: unset;
+  width: functions.spacing(37.5);
+}

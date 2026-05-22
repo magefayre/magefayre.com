@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://magefayre.com/
-
-# Sitemaps
-Sitemap: https://magefayre.com/sitemap.xml

@@ -1,0 +1,14 @@
+@use '~styles/colors.module';
+@use '~styles/functions';
+
+.root {
+  margin: auto;
+  padding: 10%;
+}
+
+.content {
+  align-items: center;
+  display: flex;
+  gap: functions.spacing(2);
+  justify-content: space-between;
+}
