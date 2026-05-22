@@ -14,8 +14,15 @@ const config = {
   themeColor: colors.black,
   twitterHandle: 'magefayre',
   socialLinks: {
-    GithHub: 'https://github.com/newhighsco/press-start',
-    X: 'https://x.com/newhighsco'
+    BlueSky: 'https://bsky.app/profile/magefayre.com',
+    Facebook: 'https://www.facebook.com/magefayredotcom',
+    GithHub: 'https://github.com/magefayre',
+    Instagram: 'https://www.instagram.com/magefayre/',
+    Patreon: 'https://patreon.magefayre.com/',
+    TikTok: 'https://www.tiktok.com/@magefayre',
+    Twitch: 'https://www.twitch.tv/magefayre',
+    YouTube: 'https://www.youtube.com/@magefayre',
+    X: 'https://x.com/magefayre'
   }
 }
 
