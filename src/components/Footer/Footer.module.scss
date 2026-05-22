@@ -1,0 +1,6 @@
+@use '~styles/functions';
+
+.root {
+  font-size: functions.spacing(2);
+  text-align: center;
+}

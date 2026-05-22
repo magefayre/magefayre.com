@@ -1,0 +1,8 @@
+@use '~styles/colors.module';
+@use '~styles/functions';
+
+.root {
+  fill: colors.$grey;
+  overflow: visible;
+  width: functions.spacing(4);
+}
