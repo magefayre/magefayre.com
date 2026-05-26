@@ -1,3 +1,9 @@
+## [1.1.0](https://github.com/magefayre/magefayre.com/compare/v1.0.3...v1.1.0) (2026-05-26)
+
+### Features
+
+* **browserslist:** use baseline ([#9](https://github.com/magefayre/magefayre.com/issues/9)) ([f638e62](https://github.com/magefayre/magefayre.com/commit/f638e62c6a4b608f049ff859eb74eb972e8b6e1e))
+
 ## [1.0.3](https://github.com/magefayre/magefayre.com/compare/v1.0.2...v1.0.3) (2026-05-26)
 
 ### Bug Fixes
