@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/magefayre/magefayre.com/compare/v1.1.0...v1.1.1) (2026-06-01)
+
+### Bug Fixes
+
+* **deps:** update dependency next to v16.2.7 ([#21](https://github.com/magefayre/magefayre.com/issues/21)) ([e1ec635](https://github.com/magefayre/magefayre.com/commit/e1ec6358b13b6bde98de388eb7bb9d6bd3cdd97e))
+
 ## [1.1.0](https://github.com/magefayre/magefayre.com/compare/v1.0.3...v1.1.0) (2026-05-26)
 
 ### Features
