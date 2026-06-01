@@ -1,3 +1,9 @@
+## [1.1.2](https://github.com/magefayre/magefayre.com/compare/v1.1.1...v1.1.2) (2026-06-01)
+
+### Bug Fixes
+
+* **deps:** update react monorepo ([#22](https://github.com/magefayre/magefayre.com/issues/22)) ([2197254](https://github.com/magefayre/magefayre.com/commit/2197254bc360f300797b2a56a54cba7d36c2f236))
+
 ## [1.1.1](https://github.com/magefayre/magefayre.com/compare/v1.1.0...v1.1.1) (2026-06-01)
 
 ### Bug Fixes
