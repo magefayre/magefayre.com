@@ -1,3 +1,9 @@
+## [1.1.3](https://github.com/magefayre/magefayre.com/compare/v1.1.2...v1.1.3) (2026-06-02)
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/next-plugin-svgr to v3.0.171 ([#25](https://github.com/magefayre/magefayre.com/issues/25)) ([397ad05](https://github.com/magefayre/magefayre.com/commit/397ad05046846bcc4ccaeb85c47d49f7339de200))
+
 ## [1.1.2](https://github.com/magefayre/magefayre.com/compare/v1.1.1...v1.1.2) (2026-06-01)
 
 ### Bug Fixes
