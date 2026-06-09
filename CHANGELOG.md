@@ -1,3 +1,9 @@
+## [1.1.5](https://github.com/magefayre/magefayre.com/compare/v1.1.4...v1.1.5) (2026-06-09)
+
+### Bug Fixes
+
+* **deps:** update nextjs monorepo to v16.2.8 ([#39](https://github.com/magefayre/magefayre.com/issues/39)) ([676ab48](https://github.com/magefayre/magefayre.com/commit/676ab48d9938413a26a8c6d548e2e4c1f44b5fb0))
+
 ## [1.1.4](https://github.com/magefayre/magefayre.com/compare/v1.1.3...v1.1.4) (2026-06-02)
 
 ### Bug Fixes
