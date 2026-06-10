@@ -1,3 +1,9 @@
+## [1.1.8](https://github.com/magefayre/magefayre.com/compare/v1.1.7...v1.1.8) (2026-06-10)
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/chipset to v7.1.0 ([#44](https://github.com/magefayre/magefayre.com/issues/44)) ([905ba1c](https://github.com/magefayre/magefayre.com/commit/905ba1c344d0e12b619fe96841e3587f2e42731e))
+
 ## [1.1.7](https://github.com/magefayre/magefayre.com/compare/v1.1.6...v1.1.7) (2026-06-10)
 
 ### Bug Fixes
