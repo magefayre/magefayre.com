@@ -1,3 +1,9 @@
+## [1.1.10](https://github.com/magefayre/magefayre.com/compare/v1.1.9...v1.1.10) (2026-06-11)
+
+### Bug Fixes
+
+* **deps:** update dependency @newhighsco/press-start to v2.7.2 ([#46](https://github.com/magefayre/magefayre.com/issues/46)) ([b419622](https://github.com/magefayre/magefayre.com/commit/b419622127a7d39bf5d595da29eb3a03c9a56a80))
+
 ## [1.1.9](https://github.com/magefayre/magefayre.com/compare/v1.1.8...v1.1.9) (2026-06-10)
 
 ### Bug Fixes
