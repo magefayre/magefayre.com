@@ -1,3 +1,9 @@
+## [1.1.12](https://github.com/magefayre/magefayre.com/compare/v1.1.11...v1.1.12) (2026-06-12)
+
+### Bug Fixes
+
+* **deps:** update dependency sass to v1.101.0 ([#51](https://github.com/magefayre/magefayre.com/issues/51)) ([1970cc0](https://github.com/magefayre/magefayre.com/commit/1970cc045583e96ffd6089046bc6efeb256ad771))
+
 ## [1.1.11](https://github.com/magefayre/magefayre.com/compare/v1.1.10...v1.1.11) (2026-06-12)
 
 ### Bug Fixes
