@@ -1,6 +1,16 @@
 @use '~styles/functions';
 
-.root {
-  font-size: functions.spacing(2);
-  text-align: center;
+// .root {
+//   font-size: functions.spacing(2);
+//   text-align: center;
+// }
+
+.links {
+  width: auto;
+}
+
+.iconLinks {
+  flex-grow: 1;
+  text-align: right;
+  width: auto;
 }

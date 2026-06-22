@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import { LogoJsonLd, SocialProfileJsonLd } from 'next-seo'
-import React from 'react'
 import urlJoin from 'url-join'
 
 import PageContainer from '~components/PageContainer'

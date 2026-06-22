@@ -1,8 +1,13 @@
-import { HeaderContainer, SmartLink } from '@newhighsco/chipset'
-import React, { type FC } from 'react'
+import {
+  Grid,
+  HeaderContainer,
+  Navigation,
+  SmartLink
+} from '@newhighsco/chipset'
+import type { FC } from 'react'
 
 import LogoLockup from '~components/LogoLockup'
-import Star from '~components/Star'
+import header from '~data/header.json'
 
 import styles from './Header.module.scss'
 
@@ -11,11 +16,16 @@ const Header: FC = () => (
     gutter
     theme={{ root: styles.root, content: styles.content }}
   >
-    <Star />
-    <SmartLink href="/">
-      <LogoLockup />
-    </SmartLink>
-    <Star />
+    <Grid flex valign="middle">
+      <Grid.Item className={styles.logo}>
+        <SmartLink href="/">
+          <LogoLockup />
+        </SmartLink>
+      </Grid.Item>
+      <Grid.Item className={styles.links}>
+        <Navigation links={header.links} inline />
+      </Grid.Item>
+    </Grid>
   </HeaderContainer>
 )
 

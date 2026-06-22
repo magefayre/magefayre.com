@@ -1,3 +1,7 @@
+// Font families
+$lato: 'Lato';
+$lora: 'Lora';
+
 // Font stacks
 /* stylelint-disable value-keyword-case */
 $stack-system:
@@ -6,8 +10,8 @@ $stack-system:
 /* stylelint-enable value-keyword-case */
 
 // Font families
-$body: $stack-system;
-$heading: $stack-system;
+$body: $lato, $stack-system;
+$heading: $lora, $stack-system;
 
 :export {
   body: $body;
