@@ -3,7 +3,14 @@ import type { NextConfig } from 'next'
 import withPlugins from 'next-compose-plugins'
 
 const nextConfig: NextConfig = {
-  images: { formats: ['image/avif', 'image/webp'] },
+  images: {
+    formats: ['image/avif', 'image/webp'],
+    remotePatterns: [
+      new URL('https://static.showit.co/**'),
+      new URL('https://images.unsplash.com/**'),
+      new URL('https://img.magnific.com/**')
+    ]
+  },
   i18n: { locales: ['en'], defaultLocale: 'en' },
   poweredByHeader: false,
   transpilePackages: ['@newhighsco/chipset', '@newhighsco/press-start'],

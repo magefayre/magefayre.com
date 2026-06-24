@@ -1,4 +1,5 @@
 import {
+  Button,
   Grid,
   HeaderContainer,
   Navigation,
@@ -23,7 +24,11 @@ const Header: FC = () => (
         </SmartLink>
       </Grid.Item>
       <Grid.Item className={styles.links}>
-        <Navigation links={header.links} inline />
+        <Navigation
+          links={header.links}
+          inline
+          renderLink={props => <Button {...props} />}
+        />
       </Grid.Item>
     </Grid>
   </HeaderContainer>

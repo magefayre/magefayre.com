@@ -1,6 +1,1 @@
-{
-  "links": [
-    { "href": "/", "children": "Spells", "target": "" },
-    { "href": "/", "children": "Subclasses", "target": "" }
-  ]
-}
+{ "links": [{ "href": "/", "children": "Spells", "target": "" }] }

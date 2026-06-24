@@ -5,7 +5,7 @@
   font-family: fonts.$lato;
   font-style: normal;
   font-weight: normal;
-  src: url('/fonts/lato.woff2') format('woff2');
+  src: url('/fonts/futurabt-light-webfont.woff2') format('woff2');
 }
 
 @font-face {
@@ -13,5 +13,8 @@
   font-family: fonts.$lora;
   font-style: normal;
   font-weight: normal;
-  src: url('/fonts/lora.woff2') format('woff2');
+  src: url('/fonts/cinzel.woff2') format('woff2');
+  src: url('/fonts/gallery-modern.woff2') format('woff2');
+
+  // src: url('/fonts/CantoriaMTStd-Light.woff2') format('woff2');
 }

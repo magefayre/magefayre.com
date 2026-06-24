@@ -4,8 +4,12 @@
 @use '~styles/fonts.module';
 @use '~styles/font-faces';
 
+:root {
+  --full: calc(infinity * 1px);
+}
+
 body {
-  background-color: colors.$black;
+  background-color: black;
   color: colors.$gold;
   font-size: 18px;
   line-height: 1;
