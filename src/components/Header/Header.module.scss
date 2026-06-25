@@ -2,13 +2,20 @@
 @use '~styles/functions';
 
 .root {
-  background: #031413;
-  border-bottom: 1px solid #d0b696;
-  border-color: rgb(212 174 142 / 50%);
+  background: colors.$evergreen;
+  border-bottom: 1px solid colors.$apricot-light;
+}
+
+.content {
+  padding-block: functions.spacing(2);
 }
 
 .logo {
   width: auto;
+}
+
+.logoLockup {
+  font-size: functions.spacing(6);
 }
 
 .links {

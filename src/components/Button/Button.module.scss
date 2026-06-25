@@ -1,21 +1,19 @@
+@use '~styles/colors.module';
+@use '~styles/functions';
+
 .root {
-  background-image: linear-gradient(transparent, #351c15);
-  border: 1px solid currentColor;
-  border-color: rgb(212 174 142 / 75%);
+  background-image: linear-gradient(transparent, colors.$russet);
+  border: 1px solid colors.$apricot-light;
   border-radius: var(--full);
   font-size: small;
   letter-spacing: 0.25em;
   line-height: 3em;
   text-transform: uppercase;
-  width: 250px;
+  transition: 0.5s;
+  width: functions.spacing(32);
 
   &:hover {
-    .content {
-      color: white;
-    }
+    border-color: colors.$apricot;
+    color: colors.$white;
   }
-}
-
-.content {
-  transition: 0.5s;
 }

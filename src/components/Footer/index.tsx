@@ -17,7 +17,10 @@ const iconLinks = { Instragram: { icon: 'simple-icons:instagram' } }
 const year = new Date().getFullYear()
 
 const Footer: FC = () => (
-  <FooterContainer gutter theme={{ root: styles.root }}>
+  <FooterContainer
+    gutter
+    theme={{ root: styles.root, content: styles.content }}
+  >
     <Grid flex valign="middle">
       <Grid.Item className={styles.links}>
         <Navigation

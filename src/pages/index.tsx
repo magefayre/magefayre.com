@@ -33,43 +33,39 @@ const HomePage: NextPage = () => (
         style={{ alignItems: 'end', gap: 60, justifyContent: 'center' }}
       >
         <Card
-          href="/"
-          heading="Magefayre"
+          href="https://druidcraft.magefayre.com/"
+          heading="Druidcraft"
           image={{
-            src: 'https://static.showit.co/450/easE-IIqQKWeRPJr8rsTvw/227814/101.png',
-            ratio: '40:29',
-            fill: true,
-            sizes: '33vw'
+            src: 'https://images.unsplash.com/photo-1605343215901-1242b8c2a55c',
+            ratio: '60:43',
+            fill: true
+          }}
+        >
+          Never struggle with choosing a Wild Shape again
+        </Card>
+        <Card
+          href="https://druidcraft.magefayre.com/"
+          heading="Heading"
+          image={{
+            src: 'https://images.unsplash.com/photo-1605343215901-1242b8c2a55c',
+            ratio: '60:43',
+            fill: true
           }}
         >
           Content
         </Card>
         <Card
           href="https://druidcraft.magefayre.com/"
-          heading="Druidcraft"
-          image={{
-            src: 'https://images.unsplash.com/photo-1605343215901-1242b8c2a55c',
-            ratio: '40:29',
-            fill: true,
-            sizes: '33vw'
-          }}
-        >
-          Never struggle with choosing a Wild Shape again
-        </Card>
-        <Card
-          href="/"
           heading="Heading"
           image={{
-            src: 'https://static.showit.co/450/easE-IIqQKWeRPJr8rsTvw/227814/101.png',
-            ratio: '40:29',
-            fill: true,
-            sizes: '33vw'
+            src: 'https://images.unsplash.com/photo-1605343215901-1242b8c2a55c',
+            ratio: '60:43',
+            fill: true
           }}
         >
           Content
         </Card>
       </Grid>
-      <Button>Button</Button>
     </Section>
   </PageContainer>
 )

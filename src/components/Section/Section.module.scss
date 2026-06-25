@@ -1,8 +1,9 @@
+@use '~styles/colors.module';
 @use '~styles/functions';
 
 .root {
   &:nth-of-type(even) {
-    background: #031413;
+    background: colors.$evergreen;
   }
 }
 

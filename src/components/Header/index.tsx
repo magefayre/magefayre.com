@@ -19,7 +19,7 @@ const Header: FC = () => (
     <Grid flex valign="middle">
       <Grid.Item className={styles.logo}>
         <SmartLink href="/">
-          <LogoLockup />
+          <LogoLockup className={styles.logoLockup} />
         </SmartLink>
       </Grid.Item>
       <Grid.Item className={styles.links}>
