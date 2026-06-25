@@ -10,9 +10,9 @@ const { name } = config
 
 type Props = { className?: string }
 
-const LogoLockup: FC<Props> = ({ className }) => (
+const LogoLockup: FC<Props> = ({ className, ...rest }) => (
   <div className={classNames(styles.root, className)}>
-    <Icon alt={name} theme={{ root: styles.icon }}>
+    <Icon alt={name} theme={{ root: styles.icon }} {...rest}>
       <LogoSvg />
     </Icon>
   </div>

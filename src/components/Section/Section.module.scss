@@ -1,0 +1,11 @@
+@use '~styles/functions';
+
+.root {
+  &:nth-of-type(even) {
+    background: #031413;
+  }
+}
+
+.content {
+  padding-block: functions.spacing(12);
+}

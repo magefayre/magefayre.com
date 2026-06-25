@@ -1,4 +1,5 @@
 @use '~styles/fonts.module';
+@use '~styles/functions';
 
 .root {
   aspect-ratio: 2 / 3;
@@ -9,15 +10,17 @@
   width: 300px;
 
   &:nth-of-type(even) {
+    margin-bottom: functions.spacing(8);
+
     .content {
-      background-image: linear-gradient(#000, #351c15);
+      background-image: linear-gradient(#0d0d0d, #351c15);
       border-radius: 0;
       border-bottom-left-radius: inherit;
       border-bottom-right-radius: inherit;
     }
 
     .image {
-      order: -1;
+      order: unset;
     }
   }
 
@@ -33,7 +36,8 @@
   align-items: center;
 
   // background-image: linear-gradient(#222, #000);
-  background-image: linear-gradient(#351c15, #000);
+  // background-image: linear-gradient(#351c15, #000);
+  background-image: linear-gradient(#17201c, #0d0d0d);
   border: 1px solid currentColor;
   border-color: rgb(212 174 142 / 75%);
   border-radius: 0;
@@ -53,20 +57,16 @@
 
 .image {
   order: 1;
-  z-index: 0;
-
-  img {
-    object-fit: cover;
-
-    // filter: brightness(0.5);
-    transition: 0.5s;
-  }
 }
 
 .heading {
   font-family: fonts.$heading;
   font-size: 40px;
   transition: 0.5s;
+
+  a::after {
+    z-index: 1;
+  }
 }
 
 .copy {

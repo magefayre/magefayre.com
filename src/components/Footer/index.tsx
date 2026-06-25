@@ -20,8 +20,21 @@ const Footer: FC = () => (
   <FooterContainer gutter theme={{ root: styles.root }}>
     <Grid flex valign="middle">
       <Grid.Item className={styles.links}>
-        <Navigation links={footer.links} theme={{ link: styles.link }} inline />
-        &copy; {year} {name}. All rights reserved
+        <Navigation
+          links={[
+            ...footer.links,
+            {
+              children: (
+                <>
+                  &copy; {year} {name}. All rights reserved
+                </>
+              ),
+              href: '/'
+            }
+          ]}
+          theme={{ link: styles.link }}
+          inline
+        />
       </Grid.Item>
       <Grid.Item className={styles.iconLinks}>
         <Navigation
