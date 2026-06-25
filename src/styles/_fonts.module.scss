@@ -1,6 +1,6 @@
 // Font families
-$lato: 'Lato';
-$lora: 'Lora';
+$futura: 'Futura';
+$gallery-modern: 'Gallery Modern';
 
 // Font stacks
 /* stylelint-disable value-keyword-case */
@@ -10,8 +10,8 @@ $stack-system:
 /* stylelint-enable value-keyword-case */
 
 // Font families
-$body: $lato, $stack-system;
-$heading: $lora, $stack-system;
+$body: $futura, $stack-system;
+$heading: $gallery-modern, $stack-system;
 
 :export {
   body: $body;

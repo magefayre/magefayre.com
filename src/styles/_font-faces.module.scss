@@ -1,0 +1,26 @@
+@use 'sass:list';
+@use 'sass:map';
+@use 'sass:string';
+@use '~styles/fonts.module';
+
+$font-faces: (
+  fonts.$futura: 'futura.woff2',
+  fonts.$gallery-modern: 'gallery-modern.woff2'
+);
+
+@each $font-family, $filename in $font-faces {
+  $format: list.nth(string.split($filename, '.'), -1);
+
+  @font-face {
+    font-display: swap;
+    font-family: $font-family;
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/#{$filename}') format($format);
+  }
+}
+
+:export {
+  body: string.unquote(map.get($font-faces, fonts.$futura));
+  heading: string.unquote(map.get($font-faces, fonts.$gallery-modern));
+}
