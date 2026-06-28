@@ -1,3 +1,9 @@
+## [1.1.16](https://github.com/magefayre/magefayre.com/compare/v1.1.15...v1.1.16) (2026-06-28)
+
+### Bug Fixes
+
+* **deps:** update dependency postcss to v8.5.16 ([#85](https://github.com/magefayre/magefayre.com/issues/85)) ([5c23b2a](https://github.com/magefayre/magefayre.com/commit/5c23b2a5166ad5b5c8a0333d7e692e35eb1aa68d))
+
 ## [1.1.15](https://github.com/magefayre/magefayre.com/compare/v1.1.14...v1.1.15) (2026-06-20)
 
 ### Bug Fixes
