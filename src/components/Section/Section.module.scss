@@ -1,0 +1,12 @@
+@use '~styles/colors.module';
+@use '~styles/functions';
+
+.root {
+  &:nth-of-type(even) {
+    background: colors.$evergreen;
+  }
+}
+
+.content {
+  padding-block: functions.spacing(12);
+}

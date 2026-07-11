@@ -1,0 +1,76 @@
+@use '~styles/colors.module';
+@use '~styles/fonts.module';
+@use '~styles/functions';
+
+.root {
+  aspect-ratio: 2 / 3;
+  border-radius: var(--full);
+  display: grid;
+  gap: functions.spacing(2.25);
+  grid-auto-rows: 1fr;
+  transition: 0.5s;
+  width: functions.spacing(37.5);
+
+  &:nth-of-type(even) {
+    .content {
+      background-image: linear-gradient(colors.$hunter, colors.$midnight);
+      border-radius: 0;
+      border-top-left-radius: inherit;
+      border-top-right-radius: inherit;
+    }
+
+    .image {
+      background-image: linear-gradient(colors.$black, colors.$russet);
+      order: 1;
+    }
+  }
+
+  &:hover {
+    .content {
+      border-color: colors.$apricot;
+    }
+
+    .heading {
+      color: colors.$white;
+    }
+  }
+}
+
+.content {
+  align-items: center;
+  background-image: linear-gradient(colors.$black, colors.$russet);
+  border: 1px solid colors.$apricot-light;
+  border-radius: 0;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  justify-content: center;
+  text-align: center;
+  transition: inherit;
+
+  &:only-child {
+    border-radius: inherit;
+  }
+}
+
+.heading {
+  color: colors.$apricot;
+  font-family: fonts.$heading;
+  font-size: 40px;
+  transition: inherit;
+
+  a::after {
+    z-index: 1;
+  }
+}
+
+.copy {
+  line-height: 1.2;
+  max-width: 50%;
+}
+
+.image {
+  background-image: linear-gradient(colors.$hunter, colors.$midnight);
+}

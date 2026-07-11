@@ -1,0 +1,22 @@
+@use '~styles/colors.module';
+@use '~styles/fonts.module';
+@use '~styles/functions';
+
+.root {
+  > * + * {
+    margin-top: functions.spacing(4);
+  }
+
+  h1 {
+    color: colors.$apricot;
+    font-family: fonts.$heading;
+    font-size: 4em;
+  }
+
+  h2 {
+    font-size: 18px;
+    letter-spacing: 0.5em;
+    line-height: 2.1em;
+    text-transform: uppercase;
+  }
+}

@@ -1,6 +1,24 @@
+@use '~styles/colors.module';
 @use '~styles/functions';
 
 .root {
-  font-size: functions.spacing(2);
-  text-align: center;
+  border-top: 1px solid colors.$apricot-light;
+}
+
+.content {
+  padding-block: functions.spacing(2);
+}
+
+.links {
+  width: auto;
+}
+
+.icon {
+  font-size: functions.spacing(3);
+}
+
+.iconLinks {
+  flex-grow: 1;
+  text-align: right;
+  width: auto;
 }

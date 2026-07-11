@@ -1,9 +1,22 @@
-$black: #222;
+$black: #000;
+$midnight: #0d0d0d;
 $grey: #333;
-$gold: #d4ae8e;
+$evergreen: #031413;
+$hunter: #17201c;
+$russet: #351c15;
+$apricot: #d4ae8e;
+$apricot-light: rgb(from $apricot r g b / 50%);
+$peach: #e8d2b7;
+$white: #fff;
 
 :export {
   black: $black;
+  midnight: $midnight;
   grey: $grey;
-  gold: $gold;
+  evergreen: $evergreen;
+  hunter: $hunter;
+  russet: $russet;
+  apricot: $apricot;
+  peach: $peach;
+  white: $white;
 }

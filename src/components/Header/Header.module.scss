@@ -2,13 +2,24 @@
 @use '~styles/functions';
 
 .root {
-  margin: auto;
-  padding: 10%;
+  background: colors.$evergreen;
+  border-bottom: 1px solid colors.$apricot-light;
 }
 
 .content {
-  align-items: center;
-  display: flex;
-  gap: functions.spacing(2);
-  justify-content: space-between;
+  padding-block: functions.spacing(2);
+}
+
+.logo {
+  width: auto;
+}
+
+.logoLockup {
+  font-size: functions.spacing(6);
+}
+
+.links {
+  flex-grow: 1;
+  text-align: right;
+  width: auto;
 }

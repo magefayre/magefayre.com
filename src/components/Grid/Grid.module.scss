@@ -1,0 +1,6 @@
+@use '~@newhighsco/chipset/styles/mixins/grid';
+@use '~styles/functions';
+@include grid.gutter('', functions.spacing(6));
+@include grid.gutter('gutterless', 0);
+@include grid.flex;
+@include grid.valign(middle);

@@ -1,7 +1,11 @@
 @use '~styles/functions';
 
+.root {
+  font-size: functions.spacing(20);
+}
+
 .icon {
-  max-width: 100%;
-  min-height: unset;
-  width: functions.spacing(37.5);
+  display: block;
+  height: 1em;
+  width: auto;
 }
