@@ -78,6 +78,20 @@
     "stylelint": "17.15.0",
     "typescript": "6.0.3"
   },
+  "dependenciesMeta": {
+    "@newhighsco/commitlint-config": {
+      "built": true
+    },
+    "@newhighsco/editor-config": {
+      "built": true
+    },
+    "@newhighsco/lint-staged-config": {
+      "built": true
+    },
+    "@newhighsco/yarn-plugin-preset": {
+      "built": true
+    }
+  },
   "browserslist": [
     "extends @newhighsco/browserslist-config"
   ],
