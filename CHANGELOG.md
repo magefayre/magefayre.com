@@ -1,3 +1,5 @@
+## [1.1.65](https://github.com/magefayre/magefayre.com/compare/v1.1.64...v1.1.65) (2026-10-05)
+
 ## [1.1.64](https://github.com/magefayre/magefayre.com/compare/v1.1.63...v1.1.64) (2026-10-01)
 
 ## [1.1.63](https://github.com/magefayre/magefayre.com/compare/v1.1.62...v1.1.63) (2026-09-30)
