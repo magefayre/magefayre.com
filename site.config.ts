@@ -15,7 +15,7 @@ const config = {
   twitterHandle: 'magefayre',
   socialLinks: {
     BlueSky: 'https://bsky.app/profile/magefayre.com',
-    Facebook: 'https://www.facebook.com/magefayredotcom',
+    Facebook: 'https://www.facebook.com/magefayrecom',
     GithHub: 'https://github.com/magefayre',
     Instagram: 'https://www.instagram.com/magefayre/',
     Patreon: 'https://patreon.magefayre.com/',
